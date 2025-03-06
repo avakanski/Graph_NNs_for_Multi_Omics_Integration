@@ -2,7 +2,7 @@
 
 [![IEEE Access](https://img.shields.io/badge/IEEE_Access-10.1109/ACCESS.2025.3540769-blue.svg)](https://doi.org/10.1109/ACCESS.2025.3540769)  [![arXiv](https://img.shields.io/badge/arXiv-2410.05325-b31b1b)](https://arxiv.org/abs/2410.05325)
 
-Fadi Alharbi, Aleksandar Vakanski, Boyu Zhang, Murtada K. Elbashir, Mohanad Mohammed
+Authors: Fadi Alharbi, Aleksandar Vakanski, Boyu Zhang, Murtada K. Elbashir, Mohanad Mohammed
 
 Recent studies on integrating multiple omics data highlighted the potential to advance our understanding of the cancer disease process. Computational models based on graph neural networks and attention-based architectures have demonstrated promising results for cancer classification due to their ability to model complex relationships among biological entities. However, challenges related to addressing the high dimensionality and complexity in integrating multi-omics data, as well as in constructing graph structures that effectively capture the interactions between nodes, remain active areas of research. 
 

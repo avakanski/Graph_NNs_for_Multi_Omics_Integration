@@ -29,7 +29,6 @@ If you use the codes or the methods in your work, please cite the following <a h
     JOURNAL = {IEEE Access},
     YEAR = {2025},
     VOLUME = {13},
-    ISSUE = {},
     PAGES = {37724-37736},
     URL = {https://ieeexplore.ieee.org/abstract/document/10879447},
     DOI = {10.1109/ACCESS.2025.3540769}

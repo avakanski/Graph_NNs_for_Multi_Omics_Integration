@@ -13,16 +13,10 @@ The code in the repository is organized in the following notebooks:
 - [**GTN_MultiOmicsData.ipynb**](Code/GTN_MultiOmicsData.ipynb): contains codes for Graph Transformer Network (GTN) for multi-omics data integration (mRNA, miRNA and DNA methylation), using the PPI (protein-protein interaction) graph structure.
 
 ## 📊 Data
-The provided file PPI.csv contains the information about the PPI (protein-protein interaction)network. 
+The provided file [**PPI.csv**](Data/PPI.csv) contains the information about the PPI (protein-protein interaction)network. 
 
 ## ▶️ Use
 The codes are provided as Jupyter Notebook files. To reproduce the results, run the .ipynb files. 
-
-## 🔨 Requirements
-torch 2.0.1  
-pandas 1.5.3  
-numpy 1.23.5  
-scikit-learn 1.2.2  
 
 ## 📖 Citation
 If you use the codes or the methods in your work, please cite the following <a href="https://ieeexplore.ieee.org/abstract/document/10879447">article</a>:   

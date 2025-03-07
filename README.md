@@ -9,13 +9,25 @@ Recent studies on integrating multiple omics data highlighted the potential to a
 This study evaluates graph neural network architectures for multi-omics (MO) data integration based on graph-convolutional networks (GCN), graph-attention networks (GAT), and graph-transformer networks (GTN). Differential gene expression and LASSO (Least Absolute Shrinkage and Selection Operator) regression are employed for reducing the omics data dimensionality and feature selection; hence, the developed models are referred to as LASSO-MOGCN, LASSO-MOGAT, and LASSO-MOGTN. Graph structures constructed using sample correlation matrices and protein-protein interaction networks are investigated. Experimental validation is performed with a dataset of 8,464 samples from 31 cancer types and normal tissue, comprising messenger-RNA, micro-RNA, and DNA methylation data. The results show that the models integrating multi-omics data outperformed the models trained on single omics data, where LASSO-MOGAT achieved the best overall performance, with an accuracy of 95.9%. The findings also suggest that correlation-based graph structures enhance the models’ ability to identify shared cancer-specific signatures across patients in comparison to protein-protein interaction networks-based graph structures.
 
 ## 📁 Repository Organization
-The code in the repository is organized in the following notebooks:
-- [**GAT_MultiOmicsData.ipynb**](Code/GAT_MultiOmicsData.ipynb): contains codes for Graph Attention Network (GAT) for multi-omics data integration (mRNA, miRNA and DNA methylation), using the PPI (protein-protein interaction) graph structure.
-- [**GCN_MultiOmicsData.ipynb**](Code/GCN_MultiOmicsData.ipynb): contains codes for Graph Convolutional Network (GCN) for multi-omics data integration (mRNA, miRNA and DNA methylation), using the PPI (protein-protein interaction) graph structure.
-- [**GTN_MultiOmicsData.ipynb**](Code/GTN_MultiOmicsData.ipynb): contains codes for Graph Transformer Network (GTN) for multi-omics data integration (mRNA, miRNA and DNA methylation), using the PPI (protein-protein interaction) graph structure.
+The code in the repository presents a comparative analysis for three different types of graph-based neural networks with multi-omics data integration (mRNA, miRNA and DNA methylation) for cancer prediction.
+
+The architectures employ two types of graph structures: PPI (protein-protein interaction) network and correlation matrix.
+
+The codes that employ PPI graph structure include:
+- [GAT_MultiOmics_PPI.ipynb](Code/GAT_MultiOmics_PPI.ipynb): Graph Attention Network (GAT).
+- [GCN_MultiOmics_PPI.ipynb](Code/GCN_MultiOmics_PPI.ipynb): Graph Convolutional Network (GCN).
+- [GTN_MultiOmics_PPI.ipynb](Code/GTN_MultiOmics_PPI.ipynb): Graph Transformer Network (GTN).
+
+Similarly, the codes that employ correlation matric graph structure include:
+- [GAT_MultiOmics_CorMat.ipynb](Code/GAT_MultiOmics_CorMat.ipynb): Graph Attention Network (GAT).
+- [GCN_MultiOmics_CorMat.ipynb](Code/GCN_MultiOmics_CorMat.ipynb): Graph Convolutional Network (GCN).
+- [GTN_MultiOmics_CorMat.ipynb](Code/GTN_MultiOmics_CorMat.ipynb): Graph Transformer Network (GTN).
 
 ## 📊 Data
-The provided file [**PPI.csv**](Data/PPI.csv) contains the information about the PPI (protein-protein interaction)network. 
+The provided file [PPI.csv](Data/PPI.csv) contains the information about the PPI (protein-protein interaction) network. 
+
+The file containing the multi-omics data (mRNA, miRNA and DNA methylation) can be downloaded from: [https://www.webpages.uidaho.edu/vakanski/Codes_Data/mRNA_miRNA_Meth_integrated.csv](https://www.webpages.uidaho.edu/vakanski/Codes_Data/mRNA_miRNA_Meth_integrated.csv).
+
 
 ## ▶️ Use
 The codes are provided as Jupyter Notebook files. To reproduce the results, run the .ipynb files. 

@@ -19,9 +19,9 @@ The codes that employ PPI graph structure include:
 - [GTN_MultiOmics_PPI.ipynb](Code/GTN_MultiOmics_PPI.ipynb): Graph Transformer Network (GTN).
 
 Similarly, the codes that employ correlation matric graph structure include:
-- [GAT_MultiOmics_CorMat.ipynb](Code/GAT_MultiOmics_CorMat.ipynb): Graph Attention Network (GAT).
-- [GCN_MultiOmics_CorMat.ipynb](Code/GCN_MultiOmics_CorMat.ipynb): Graph Convolutional Network (GCN).
-- [GTN_MultiOmics_CorMat.ipynb](Code/GTN_MultiOmics_CorMat.ipynb): Graph Transformer Network (GTN).
+- [GAT_MultiOmics_CorrMat.ipynb](Code/GAT_MultiOmics_CorrMat.ipynb): Graph Attention Network (GAT).
+- [GCN_MultiOmics_CorrMat.ipynb](Code/GCN_MultiOmics_CorrMat.ipynb): Graph Convolutional Network (GCN).
+- [GTN_MultiOmics_CorrMat.ipynb](Code/GTN_MultiOmics_CorrMat.ipynb): Graph Transformer Network (GTN).
 
 ## 📊 Data
 The provided file [PPI.csv](Data/PPI.csv) contains the information about the PPI (protein-protein interaction) network. 

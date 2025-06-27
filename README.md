@@ -24,7 +24,7 @@ Similarly, the codes that employ correlation matric graph structure include:
 ## 📊 Data
 The provided file [PPI.csv](Data/PPI.csv) contains information about the PPI (protein-protein interaction) network. 
 
-The file containing the multi-omics data (mRNA, miRNA, and DNA methylation) can be downloaded from: [here](https://vandalsuidaho-my.sharepoint.com/:x:/g/personal/vakanski_uidaho_edu/EYLJUyRCa0VNjwgf-aWZQlMBiQx7Z0A01sjV2gio2uBwhg?e=4kWqe2).
+The file containing the multi-omics data (mRNA, miRNA, and DNA methylation) can be downloaded from: [here](https://www.idahofallshighered.org/vakanski/Codes_Data/mRNA_miRNA_Meth_integrated.csv).
 
 ## ▶️ Use
 The codes are provided as Jupyter Notebook files. To reproduce the results, run the .ipynb files. 
